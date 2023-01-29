@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const port = process.env.PORT || 3000;
 const app = express();
-const PageDataController = require('./controller/PageDataController')
+const PageDataController = require('./Controller/PageDataController')
 
 const {json} = require('body-parser')
 var cors = require('cors');
